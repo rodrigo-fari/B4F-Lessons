@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="index.js"></script>
+	<title>Aula 1 JS</title>
+</head>
+
+<body>
+	<h1> Simple Calculator </h1>
+	<div class="calculator">
+		<fieldset>
+			<div class="conteiner">
+				<label for="fNumber">Type your first number:</label><br>
+				<input id="fNumber" type="number" name="fNumber">
+			</div>
+			<div class="conteiner">
+				<label for="operation">Select the desired operation:</label><br>
+				<select name="operation" id="operation">
+					<option value="">-- Select an option --</option>
+					<option value="*">Multiplication [ × ]</option>
+					<option value="+">Addition [ + ]</option>
+					<option value="-">Subtraction [ - ]</option>
+					<option value="/">Division [ ÷ ]</option>
+				</select>
+			</div>
+			<div class="conteiner">
+				<label for="sNumber">Type your second number:</label><br>
+				<input type="number" name="sNumber" id="sNumber">
+			</div>
+			<div class="generalBtns">
+				<button class="calculateBtn"> Calculate </button>
+			</div>
+			<div class="response">
+				<p>Result = </p>
+			</div>
+		</fieldset>
+	</div>
+</body>
+
+</html>

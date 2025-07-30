@@ -33,65 +33,68 @@ estamos afirmando que aquela variavel é do tipo BigInt.
 */
 
 
-//ex01
-// console.log("\nEx01:");
+//=======================================================ex01
+console.log("\n=======================================================Ex01:");
 
-// let firstName = "Rodrigo";
-// const AGE = 24;
+let firstName = "Rodrigo";
+const AGE = 24;
 
-// console.log("Meu nome é", firstName, "e tenho", AGE, "anos.");
+console.log("Meu nome é", firstName, "e tenho", AGE, "anos.");
 
-// //ou
+//ou
 
-// console.log(`Meu nome é ${firstName}, e tenho ${AGE} anos. \n`)
+console.log(`Meu nome é ${firstName}, e tenho ${AGE} anos. \n`)
 
-// //ex02
-// console.log("Ex02:");
+//=======================================================ex02
+console.log("=======================================================Ex02:");
 
-// let intNumber = 99n;
-// let floatNumber = 99.9;
-// let string = "This is a string"
+let intNumber = 99n;
+let floatNumber = 99.9;
+let string = "This is a string"
 
 
-// console.log("Variable content:");
-// console.log(`INT number = ${intNumber}`);
-// console.log(`FLOAT number = ${floatNumber}`);
-// console.log(`String = ${string}`);
+console.log("Variable content:");
+console.log(`INT number = ${intNumber}`);
+console.log(`FLOAT number = ${floatNumber}`);
+console.log(`String = ${string}`);
 
-// console.log("\n");
+console.log("\n");
 
-// console.log("Variable type:");
-// console.log(typeof(intNumber));
-// console.log(typeof(floatNumber));
-// console.log(typeof(string));
+console.log("Variable type:");
+console.log(typeof(intNumber));
+console.log(typeof(floatNumber));
+console.log(typeof(string));
 
-//ex03
-// console.log("Ex03:");
+//=======================================================ex03
+console.log("=======================================================Ex03:");
 
-// let num = 1;
-// let str = '2';
+let num = 1;
+let str = '2';
 
-// console.log(num);
-// console.log(str);
-// console.log(num + str);
-// console.log(num - str);
+console.log(num);
+console.log(str);
+console.log(num + str);
+console.log(num - str);
 
-// let soma = num + str;
+let soma = num + str;
 
-//ex04
-// let num1 = 10;
-// let num2 = 15;
-// let media = (num1 + num2) / 2;
+//=======================================================ex04
+console.log("=======================================================Ex04:");
+let num1 = 10;
+let num2 = 15;
+let media = (num1 + num2) / 2;
 
-// console.log(media);
+console.log(media);
 
-//ex05
-// let var1 = "Olá";
-// let var2 = "Mundo";
+//=======================================================ex05
+console.log("=======================================================Ex05:");
+let var1 = "Olá";
+let var2 = "Mundo";
 
-// console.log(var1 + " " + var2);
+console.log(var1 + " " + var2);
 
-//ex05
+//=======================================================ex06
+console.log("=======================================================Ex06:");
 let temChave = true;
 let portaTrancada = true;
 

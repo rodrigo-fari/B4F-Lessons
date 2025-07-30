@@ -45,5 +45,52 @@ console.log(person.city); OUTP: NewYork
 delete person.job;
 console.log(person.job); OUTP: Undefined!
 
-
 */
+
+//ex01
+
+let city = [
+	"Porto",
+	"Vila Nova de Gaia",
+	"Maia"
+];
+
+console.log("Size = " + city.length);
+
+for(let i = 0; i < city.length; i++) {
+	console.log("Index [" + i + "] = " + city[i]);
+}
+console.log("\nFirst city = " + city[0]);
+console.log("\nMiddle index = " + city[1]);
+
+console.log("\nBefore change:");
+for(let i = 0; i < city.length; i++) {
+	console.log("Index [" + i + "] = " + city[i]);
+}
+
+city[1] = "Gondomar"
+console.log("\nAfter change:");
+for(let i = 0; i < city.length; i++) {
+	console.log("Index [" + i + "] = " + city[i]);
+}
+
+city.push("Leiria");
+console.log("\nAdded new index to array:");
+for(let i = 0; i < city.length; i++) {
+	console.log("Index [" + i + "] = " + city[i]);
+}
+
+console.log("New size = " + city.length);
+
+city.pop("Leiria");
+console.log("\nRemoved last index of the array:");
+for(let i = 0; i < city.length; i++) {
+	console.log("Index [" + i + "] = " + city[i]);
+}
+
+console.log("New size = " + city.length);
+
+console.log("\nFinal array's version:");
+for(let i = 0; i < city.length; i++) {
+	console.log("Index [" + i + "] = " + city[i]);
+}
